@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <div class="outer-container">
+    <div class="button-container">
+      <button type="button" id="right" onClick="firstButton()">First</button>
+      <div id="righttext"></div>
+      <button type="button" id="noimright" onClick="secondButton()">Second</button>
+    </div>
+    <div class="infoboxes" id="donthover" onmouseover="dontHover()">
+      <h1 class="title">Don't Hover Over Me</h1>
+    </div>
+    <form id="formal" class="infoboxes">
+      Sphere Radius: <input id="sphereRadius" type="text" name="sphereRadius">
+      <br>
+      <button type="button" onClick="getSphereRadius()">Submit</button>
+      </form>
+  </div>
+  <body>
+    <script src="assignment.js"></script>
+  </body>
+</html>
